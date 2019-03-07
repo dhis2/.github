@@ -22,13 +22,17 @@ exemptMilestones: false
 exemptAssignees: false
 
 # Label to use when marking as stale
-staleLabel: wontfix
+staleLabel: stale
 
 # Comment to post when marking as stale. Set to `false` to disable
 markComment: >
-  This issue has been automatically marked as stale because it has not had
-  recent activity. It will be closed if no further activity occurs. Thank you
-  for your contributions!
+  :robot: Beep-boop, I'm a bot, and due to a lack of activity on this issue over a long time
+  (5184000000 ms and counting to be exact) I have marked it as stale.
+  
+  Maybe there is something you can do to help move the issue forward, for example provide
+  further information in a comment, or post a PR?
+  
+  Remeber, any activity on this issue will keep it open.
 
 # Comment to post when removing the stale label.
 # unmarkComment: >
