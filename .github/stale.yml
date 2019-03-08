@@ -1,11 +1,10 @@
 # Configuration for probot-stale - https://github.com/probot/stale
 
-# Number of days of inactivity before an Issue or Pull Request becomes stale
-daysUntilStale: 60
+daysUntilStale: 90
 
 # Number of days of inactivity before an Issue or Pull Request with the stale label is closed.
 # Set to false to disable. If disabled, issues still need to be closed manually, but will remain marked as stale.
-daysUntilClose: 7
+daysUntilClose: 30
 
 # Issues or Pull Requests with these labels will never be considered stale. Set to `[]` to disable
 exemptLabels:
@@ -26,8 +25,8 @@ staleLabel: wontfix
 
 # Comment to post when marking as stale. Set to `false` to disable
 markComment: >
-  :robot: Beep-boop, I'm a bot, and due to a lack of activity on this issue over a long time
-  (5184000000 ms and counting to be exact) I have marked it as stale.
+  Beep-boop 🤖 I'm a bot, and due to a lack of activity on this issue over a long time
+  (`7.776*10^9` ms and counting to be exact) I have marked it as stale.
   
   Maybe there is something you can do to help move the issue forward, for example provide
   further information in a comment, or post a PR?
