@@ -25,13 +25,13 @@ staleLabel: wontfix
 
 # Comment to post when marking as stale. Set to `false` to disable
 markComment: >
-  Beep-boop 🤖 I'm a bot, and due to a lack of activity on this issue over a long time
-  (`7.776*10^9` ms and counting to be exact) I have marked it as stale.
+  Hi! Due to a lack of activity on this issue over time (7.776*10^9 ms and counting, to be precise)
+  it seems to be stale. If there is no further progress on it, it will be closed automatically.
   
-  Maybe there is something you can do to help move the issue forward, for example provide
-  further information in a comment, or post a PR?
   
-  Remeber, any activity on this issue will keep it open.
+  If this is still relevant, maybe there is something you can do to move it forward? For example
+  provide further information in a comment, or supply a PR? Any activity on this issue will keep
+  it open. Thanks! 🤖
 
 # Comment to post when removing the stale label.
 # unmarkComment: >
