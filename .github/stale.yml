@@ -24,12 +24,12 @@ exemptAssignees: false
 staleLabel: stale
 
 # Comment to post when marking as stale. Set to `false` to disable
-markComment: >
-  Hi! Due to a lack of activity on this issue over time it seems to be stale. If still relevant,
-  please provide information that moves it forward: e.g. more information, reason to keep it open,
-  supply a pull request, etc.
+markComment: |-
+  Hi!
   
-  Any activity will keep it open, otherwise it will be closed automatically. Thanks! 🤖
+  Due to a lack of activity on this issue over time (180 days) it seems to be stale. If still relevant, please provide information that moves it forward, e.g. additional information, a pull request with suggested changes, or a reason to keep it open.
+  
+  Any activity will keep it open, otherwise it will be closed automatically in 30 days. Thanks! 🤖
 
 # Comment to post when removing the stale label.
 # unmarkComment: >
