@@ -1,0 +1,5 @@
+{
+    "name": "Comment and Close",
+    "description": "Automatically close issues not opened by exempt users (bots).",
+    "iconName": "comment-and-close"
+}
