@@ -14,6 +14,10 @@
     "workarounds:all"
   ],
   "automergeType": "branch",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
   "rebaseWhen": "behind-base-branch",
   "packageRules": [
     {
@@ -38,6 +42,11 @@
         "commands": ["yarn install --frozen-lockfile", "yarn d2-style apply"],
         "fileFilters": ["**/**"]
       }
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
     }
   ]
 }
