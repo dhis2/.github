@@ -1,0 +1,32 @@
+{
+  "extends": [
+    ":dependencyDashboard",
+    ":semanticCommits",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":ignoreModulesAndTests",
+    ":autodetectPinVersions",
+    ":prHourlyLimit2",
+    ":prConcurrentLimit20",
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all"
+  ],
+  "packageRules": [
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/dhis2/ui"],
+      "groupName": "ui monorepo"
+    },
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/dhis2/cli"],
+      "groupName": "cli monorepo"
+    },
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/dhis2/app-platform"],
+      "groupName": "app-platform monorepo"
+    },
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/dhis2/cli-utils-cypress"],
+      "groupName": "cli-utils-cypress monorepo"
+    }
+  ]
+}
