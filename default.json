@@ -31,6 +31,13 @@
     {
       "matchSourceUrlPrefixes": ["https://github.com/dhis2/cli-utils-cypress"],
       "groupName": "cli-utils-cypress monorepo"
+    },
+    {
+      "matchPackageNames": ["@dhis2/cli-style"],
+      "postUpgradeTasks": {
+        "commands": ["yarn install --frozen-lockfile", "yarn d2-style apply"],
+        "fileFilters": ["**/**"]
+      }
     }
   ]
 }
