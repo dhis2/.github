@@ -13,6 +13,7 @@
     "group:recommended",
     "workarounds:all"
   ],
+  "automergeType": "branch",
   "rebaseWhen": "behind-base-branch",
   "packageRules": [
     {
