@@ -7,6 +7,7 @@
     ":semanticPrefixFixDepsChoreOthers",
     ":ignoreModulesAndTests",
     ":autodetectPinVersions",
+    ":pinOnlyDevDependencies",
     ":prHourlyLimit2",
     ":prConcurrentLimit20",
     "group:monorepos",
