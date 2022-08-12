@@ -8,6 +8,7 @@ In our GitHub organization you can find:
 - The [DHIS2 Core server code](https://github.com/dhis2/dhis2-core)
 - The [DHIS2 web applications](https://github.com/search?q=topic%3Aweb-app+org%3Adhis2+fork%3Atrue&type=repositories) maintained by the DHIS2 core team
 - Many [libraries to support web application development](https://github.com/search?q=topic%3Aweb-lib+org%3Adhis2+fork%3Atrue&type=repositories)
+- The source code for the [Android Capture application](https://github.com/dhis2/dhis2-android-capture-app) and the [Android SDK](https://github.com/dhis2/dhis2-android-sdk)
 - And more...
 
 Please read our [contributor guidelines](https://developers.dhis2.org/community/contribute) if you would like to contribute to any of these repositories
