@@ -1,5 +1,0 @@
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Onboarding preset for DHIS2 repos",
-  "extends": ["github>dhis2/.github"]
-}
