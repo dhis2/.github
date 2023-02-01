@@ -4,12 +4,11 @@ First of all, thanks for the decision to contribute to DHIS2! :heart:
 
 To contribute to any of the DHIS2 repositories, please follow a few guidelines.
 
-- Follow Code Standards
+- Follow code standards
 - Use semantic commit messages
 - Follow contribution guidelines
-- Common sense!
 
-We highly appricate your contribution, and we will do our best to help you get it merged. If you have any questions, please reach out to us through the community channels, found at the [Developer Portal](https://developers.dhis2.org/community/support).
+We appreciate your contribution, and we will do our best to help you get it merged. If you have any questions, please reach out to us through the community channels, found at the [Developer Portal](https://developers.dhis2.org/community/support).
 
 ## Code standards
 
