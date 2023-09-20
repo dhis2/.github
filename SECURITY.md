@@ -7,7 +7,8 @@ To report a security issue, please email security@dhis2.org with a description o
 Please read our [Vulnerability Management and Disclosure Policy](https://dhis2.org/trust/vulnerability-policy) before submitting a security issue, as some classes of vulnerabilities are explicitly out of scope.
 
 Learn more about DHIS2 security features at [dhis2.org/security](https://dhis2.org/security)
-Learn more about DHIS2 security practices and policies at [dhis2.org/security](https://dhis2.org/trust)
+
+Learn more about DHIS2 security policies and practices at [dhis2.org/trust](https://dhis2.org/trust)
 
 > Contact: security@dhis2.org \
 > Preferred-Languages: en \
